@@ -1,0 +1,23 @@
+{
+  "name": "coding-tech-app-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "seed": "npm-run-all seed:*",
+    "seed:tech": "node ./seeders/tech.seed.js"
+  },
+  "author": "Edgar Avecilla",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "npm-run-all": "^4.1.5"
+  }
+}
